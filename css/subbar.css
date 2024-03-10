@@ -4,32 +4,38 @@ nav.menu-desktop .subbar{
     align-items: center;
     justify-content: space-between;
 }
-#about-subbar-item, #services-subbar-item, #projects-subbar-item{
+nav.menu-desktop .subbar div{
     width: 22%;
     height: 80%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border-radius: 5px;
+    justify-content:space-around;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: 'lato';
 }
-
-#about-subbar-item{
-    background-color: rgb(230, 230, 255);
-}
-#services-subbar-item{
-    background-color: rgb(255, 230, 230);
+nav.menu-desktop .subbar div img{
+    width: 30px;
 }
 #projects-subbar-item{
-    background-color: rgb(230, 255, 230);
+    background-size: cover;
+    justify-content: end;
+    border-radius: 2px;
 }
-
+#projects-subbar-item p{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2px;
+  width: 100%;
+  text-align: center;
+}
 /* subbar-Up-Down */
 .subbar-up{
     height: 0px;
     opacity: 0;
     transition: all 0.3s;
 }
-.subbar-up p{
+.subbar-up p, .subbar-up img{
     display: none;
 }
 .subbar-down{
