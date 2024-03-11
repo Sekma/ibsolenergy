@@ -167,10 +167,10 @@ body {
     font-size: 40px;
 }
 .header-content h2{
-    color: #269b88;
+    color: rgb(233, 98, 31);
 }
 .green-line{
     width: 1px;
     height: 40px;
-    background-color: #269b88;
+    background-color: rgb(233, 98, 31);
 }

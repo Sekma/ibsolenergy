@@ -2,14 +2,14 @@
 header .logo{
     position: fixed;
     z-index: 5; /* z-index: 0, 1, 2, et 3 pour les img background et 4 pour le navbar*/
-    margin: 0 50px;
+    margin: 0 30px;
 }
 /* .menu-desktop */
 nav.menu-desktop{
     display: flex;
     justify-content: center;
     width: 100%;
-    box-shadow: 0 0px 2px 0px #41c4af;
+    box-shadow: 0 0px 2px 0px rgb(233, 98, 31);
     position: fixed;
     background-color: rgba(255, 255, 255, 0.4);
     z-index: 4; /* z-index: 0, 1, 2, et 3 pour les img background */
@@ -19,7 +19,7 @@ nav.menu-desktop{
 nav.menu-desktop:hover{
     /* opacity: 1; */
     background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0 1px 2px 0px #269b88;
+    box-shadow: 0 1px 2px 0px rgb(233, 98, 31);
 }
 /* nav-left */
 nav.menu-desktop .nav-left{
@@ -42,7 +42,7 @@ nav.menu-desktop li{
     padding: 20px;
     height: 50px;
     transition: all 0.5s;
-    border-bottom: 1px solid #269b88a5;
+    border-bottom: 1px solid rgb(233, 98, 31);
 }
 nav.menu-desktop li:hover{
     border-bottom: 1px solid #ffffff;
@@ -53,11 +53,11 @@ nav.menu-desktop a{
     font-family: 'lato';
     opacity: 0.9;
     text-decoration: none;
-    color: black;
+    color: rgb(18, 64, 118);
     transition: all 0.5s;
 }
 nav.menu-desktop a:hover{
-    color: #269b88;
+    color: rgb(233, 98, 31);
 }
 
 
