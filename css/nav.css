@@ -1,7 +1,7 @@
 /* logo */
 header .logo{
     position: fixed;
-    z-index: 5; /* z-index: 0, 1, 2, et 3 pour les img background et 4 pour le navbar*/
+    z-index: 6; /* z-index: 0, 1, 2, et 3 pour les img background et 5 pour le navbar*/
     margin: 0 30px;
 }
 /* .menu-desktop */
@@ -12,7 +12,7 @@ nav.menu-desktop{
     box-shadow: 0 0px 2px 0px rgb(233, 98, 31);
     position: fixed;
     background-color: rgba(255, 255, 255, 0.4);
-    z-index: 4; /* z-index: 0, 1, 2, et 3 pour les img background */
+    z-index: 5; /* z-index: 0, 1, 2, et 3 pour les img background... 4 pour le titre*/
     /* opacity: 0.7; */
     transition: all 0.5s;
 }
